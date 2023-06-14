@@ -1,8 +1,14 @@
+<!DOCTYPE html>
 <html>
-      <head>
-            <title>aframe attempt</title>
-      </head>
-      <body>
-            <canvas class="a-canvas a-grab-cursor a-mouse-cursor-hover" data-aframe-canvas="true" data-engine="three.js r147" width="1040" height="969"></canvas>
-      </body>
+  <head>
+    <title>aframe attempt</title>
+    <script src="https://aframe.io/releases/1.0.4/aFrame.min.js"></script>
+  </head>
+  <body>
+    <a-scene> 
+      <a-gltf-model position="0 0 -4" rotation="0 0 0" scale="0.1 0.1 0.1" src="#"></a-gltf-model>
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+      <a-sky color="#ECECEC"></a-sky>
+    </a-scene>
+  </body>
 </html>
